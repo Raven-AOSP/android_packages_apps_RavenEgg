@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.raven.ravenegg"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="R">
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_title"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".RavenEgg"
+            android:exported="true"
+            android:label="RavenEgg"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
