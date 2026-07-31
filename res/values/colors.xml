@@ -5,8 +5,8 @@
     <color name="moon_disc">#F4EFD8</color>
     <color name="moon_glow">#383F5C</color>
     <color name="star">#FFE9B8</color>
-    <color name="raven_body">#191B21</color>
-    <color name="raven_wing">#2A2D36</color>
-    <color name="raven_eye">#F2E9C9</color>
+    <color name="raven_body">#1A1F30</color>
+    <color name="raven_wing">#3E4A6E</color>
+    <color name="raven_eye">#FFC24B</color>
     <color name="egg_shell">#F5EFDD</color>
 </resources>
